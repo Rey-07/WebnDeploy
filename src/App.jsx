@@ -16,7 +16,7 @@ import "./index.css";
 import image1 from "./assets/canva5.png";
 import image3 from "./assets/block.png";
 
-const router = createBrowserRouter(routes, {
+const router = createBrowserRouter(Routes, {
   basename: import.meta.env.BASE_URL,
 });
 
@@ -33,14 +33,16 @@ function App() {
 
   return (
     <div className="dark:bg-my-custom-grey2 bg-slate-100 ">
-      <Navbar />
       <Routes router={router}>
+        <Navbar />
+
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
       </Routes>
       <Footer />
+      <Routes />
     </div>
   );
 }
