@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.scrollable-text {
+  overflow-y: auto; /* Vertical scrollbar */
+  max-height: 200px; /* Adjust as needed */
+}
+/* index.css */
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+  border-radius: 3px; /* Roundness of the scrollbar handle */
+}
+
+/* Change scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent; /* Color of the scrollbar handle on hover */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: transparent; /* Color of the scrollbar track */
+}
+
+/* Change scrollbar corner when scrollbar is present */
+::-webkit-scrollbar-corner {
+  background: transparent; /* Color of the scrollbar corner */
+}
+@layer utilities {
+  .bg-navbar {
+    @apply bg-my-custom-grey1;
+  }
+}
