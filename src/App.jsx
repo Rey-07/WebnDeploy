@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { createBrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Hero from "./components/hero/Hero.jsx";
 import OverviewCounter from "./components/overview-counter/OverviewCounter.jsx";
@@ -16,6 +16,10 @@ import "./index.css";
 import image1 from "./assets/canva5.png";
 import image3 from "./assets/block.png";
 
+const router = createBrowserRouter(routes, {
+  basename: import.meta.env.BASE_URL,
+});
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -29,17 +33,14 @@ function App() {
 
   return (
     <div className="dark:bg-my-custom-grey2 bg-slate-100 ">
-      <Router>
-        <Navbar />
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/team" element={<Team />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <Navbar />
+      <Routes router={router}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/team" element={<Team />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
