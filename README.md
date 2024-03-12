@@ -1,4 +1,4 @@
-# College Web Design Society Site
+# WebnD Site
 
 This repository contains the code for the College Web Design Society's website, built with React, Vite, Tailwind CSS, and AOS (Animate On Scroll).
 
@@ -25,8 +25,8 @@ This website serves as a platform for the College Web Design Society to showcase
 
 1. **Clone the repository:**
 
- `bash
-git clone https://github.com/your-username/college-web-design-society.git
+ ` ` `bash
+ ` git clone https://github.com/your-username/college-web-design-society.git
 cd college-web-design-society  `
 
 2. **Install Dependencies:**
