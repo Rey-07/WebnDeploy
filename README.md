@@ -25,17 +25,17 @@ This website serves as a platform for the College Web Design Society to showcase
 
 1. **Clone the repository:**
 
-'''bash
+ `bash
 git clone https://github.com/your-username/college-web-design-society.git
-cd college-web-design-society'''
+cd college-web-design-society  `
 
 2. **Install Dependencies:**
 
-   '''npm install '''
+   `npm install`
 
 3. **Run the Development Server**
 
-   '''npm run dev'''
+    `npm run dev `
 
 4. **The site will open on your localhost**
 
