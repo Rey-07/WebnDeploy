@@ -27,6 +27,7 @@ const team = () => {
                 Name="Anurag Mani Tripathi"
                 Pos="Secretary"
                 Link="https://www.linkedin.com/in/anurag-mani-tripathi-71413b22a/"
+                className="px-3"
               />
             </div>
             <div className="flex justify-center">
@@ -35,6 +36,7 @@ const team = () => {
                 Name="Ayush Tiwari"
                 Pos="Governor, Web and Design"
                 Link="https://www.linkedin.com/in/tiwari-ayush/"
+                className="px-3"
               />
             </div>
             <div className="flex justify-center">
@@ -43,6 +45,7 @@ const team = () => {
                 Name="Lalit Mohanani"
                 Pos="Governor, Web"
                 Link="https://www.linkedin.com/in/lalit-mohanani/"
+                className="px-3"
               />
             </div>
             <div className="flex justify-center">
@@ -51,6 +54,7 @@ const team = () => {
                 Name="Kattamuri Mohan Krishna"
                 Pos="Governor, Design"
                 Link="https://www.linkedin.com/in/kattamuri-mohankrishna-62a3b3239/"
+                className="px-3"
               />
             </div>
           </div>

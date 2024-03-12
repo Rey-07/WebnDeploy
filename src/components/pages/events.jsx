@@ -23,7 +23,7 @@ const events = () => {
         <div className="relative">
           <section className="text-black">
             <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
-              <div className="lg:max-w-lg lg:w-full ml-2 md:w-1/2 w-5/6 mb-10 md:mb-0">
+              <div className="lg:max-w-lg lg:w-full ml-2 md:w-1/2 w-5/6 mb-10 md:mb-0 ">
                 <Card2
                   Img={image1}
                   Head="CODE RELAY"

@@ -20,7 +20,7 @@ const Blogs = () => {
             <h1 className="mb-8 py-2 pl-2 text-center text-4xl font-bold dark:text-white">
               Our Events
             </h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-3 md:px-0 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-5 md:px-0 gap-5">
               <BlogCard
                 Img={Img1}
                 Head="CODE RELAY"

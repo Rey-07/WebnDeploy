@@ -24,7 +24,7 @@ const Member = () => {
             <h1 className="mb-8 py-2 pt-4 pl-2 text-center text-4xl font-bold">
               Our Team
             </h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-3 md:px-0 mb-5 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-5 md:px-0 mb-5 gap-4">
               <MemberCard
                 Img={Img1}
                 Name="Anurag Mani Tripathi"
