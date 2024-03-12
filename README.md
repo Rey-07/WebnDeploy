@@ -27,23 +27,24 @@ This website serves as a platform for the College Web Design Society to showcase
 
      In the bash
  ` git clone https://github.com/your-username/college-web-design-society.git `
+
    ` cd college-web-design-society  `
 
-2. **Install Dependencies:**
+3. **Install Dependencies:**
 
    `npm install`
 
-3. **Run the Development Server**
+4. **Run the Development Server**
 
     `npm run dev `
 
-4. **The site will open on your localhost**
+5. **The site will open on your localhost**
 
 ## Contributing
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature/my-feature).
 3. Make your changes.
-4. Commit your changes (git commit -am 'Add some feature').
+4. Commit your changes (git commit -m 'Add some feature').
 5. Push to the branch (git push origin feature/my-feature).
 6. Create a new Pull Request
 
