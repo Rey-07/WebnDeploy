@@ -26,8 +26,8 @@ This website serves as a platform for the College Web Design Society to showcase
 1. **Clone the repository:**
 
      In the bash
- ` git clone https://github.com/your-username/college-web-design-society.git
-cd college-web-design-society  `
+ ` git clone https://github.com/your-username/college-web-design-society.git `
+   ` cd college-web-design-society  `
 
 2. **Install Dependencies:**
 
